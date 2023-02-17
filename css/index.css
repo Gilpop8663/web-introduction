@@ -1,0 +1,76 @@
+/* @import 'reset.css'; */
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  height: 100vh;
+}
+
+section {
+  border: 1px solid;
+  padding: 25px;
+  background-color: white;
+}
+
+table {
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  background-color: black;
+  border: 1px solid;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  gap: 1px;
+}
+
+th {
+  padding: 12px;
+  background-color: white;
+}
+td {
+  padding: 8px;
+  margin-top: 1px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td:first-child {
+  font-size: large;
+  font-weight: bold;
+}
+
+a {
+  font-size: large;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+label {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  margin: 0px 10px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+.buttonContainer {
+  margin-top: 24px;
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
